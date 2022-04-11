@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>RHCP Best of all time!</title>
+        <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
+        <link rel="stylesheet" type="text/css" media="screen" href="Style.css">
+    </head>
+    <body>
 
-You can use the [editor on GitHub](https://github.com/Godoflaugh/Fanpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h1> Red Hot Chili Peppers Fan Page!</h1>
+ 
+<img
+src="https://variety.com/wp-content/uploads/2022/03/Red-Hot-Chili-Peppers-Walk-of-Fame.jpg?w=1024"
+alt="Anthony Liedis - Lead Singer, Chad Smith - Drums, Flea - Bass Guitar, John Frusciante - Guitar"
+/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<h2> Biogaraphy</h2>
+<p>
+A legendary rock band formed in 1983, in the sunshine state of California. Famous for incorporating elements and styles ranging from rock, funk, punk rock and psychadelic rock. 
+Made up of mainstay members such as Anthony Kiedis (Vocals), Flea (Bass), Chad Smith (Drums) and John Frusciante (Guitar). 
+Together they have sold over 100 million records in their time together cementing them as one of the best selling bands of all time.
+Check out their official page. <a href="https://redhotchilipeppers.com/"target="_blank" rel="noopener noreferrer"> The Official Website</a>
+</p>
+<!--Test Changes for Github-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<h2>My Favorite Songs!</h2>
+<p>
+This is an opinionated list, but these are the songs that have resonated with me the most!
+Let me know what you're favorite is!
+</p>
 
-# Header 1
-## Header 2
-### Header 3
+<ul>
+    <li> 1. <a href="https://www.youtube.com/watch?v=0fcRa5Z6LmU" target="_blank" rel="noopener noreferrer">The Zephyr Song</a></li>
+    <li> 2. <a href="https://www.youtube.com/watch?v=YlUKcNNmywk&list=RDEMf5I_WGknwqULRz9t7aGnjw&start_radio=1&rv=0fcRa5Z6LmU"target="_blank" rel="noopener noreferrer">Californication</a></li>
+    <Li> 3. <a href="https://www.youtube.com/watch?v=8DyziWtkfBw&list=RDEMf5I_WGknwqULRz9t7aGnjw&index=2"target="_blank" rel="noopener noreferrer">Can't Stop</a></Li>
+    <li> 4. <a href="https://www.youtube.com/watch?v=mzJj5-lubeM&list=RDEMf5I_WGknwqULRz9t7aGnjw&index=5"target="_blank" rel="noopener noreferrer">Scar Tissue</a></li>
+    <li> 5. <a href="https://www.youtube.com/watch?v=bFCW32Twsw8&list=RDEMf5I_WGknwqULRz9t7aGnjw&index=18"target="_blank" rel="noopener noreferrer">Dosed</a></li>
+</ul>
 
-- Bulleted
-- List
+<!-- Using the Target="_blank" function will force all hyperlinks to open in new tab, also using the rel="noopener noreferrer" will prevent outside API from redirecting users when tabbing back to the original from to a new login page which would then be used to steal credentials. Always use the rel function whenever using the target="_blank" -->
 
-1. Numbered
-2. List
+<h3>A sample of their greatness</h3>
 
-**Bold** and _Italic_ and `Code` text
+<!-- This is a basic Youtube Embed using the youtube functionality-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B_6jIOIO6q4?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<h3>Touring Schedule</h3>
 
-### Jekyll Themes
+<table>
+    <caption>International Concerts</caption>
+    <tr>
+        <th>Date:</th>
+        <th>City:</th>
+        <th>Time:</th>
+    </tr>
+    <tr>
+        <td>06/04/2022</td>
+        <td>Seville, Spain</td>
+        <td>6PM (Local)</td>
+    </tr>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Godoflaugh/Fanpage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <tr>
+        <td>06/07/2022</td>
+        <td>Barcelona, Spain</td>
+        <td>8PM (Local)</td>
+    </tr>
 
-### Support or Contact
+    <tr>
+        <td>06/10/2022</td>
+        <td>Nijmegen, Netherlands</td>
+        <td>7PM (Local)</td>
+    </tr>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</table>
+
+    </body>
+</html>
