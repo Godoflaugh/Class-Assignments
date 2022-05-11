@@ -1,0 +1,33 @@
+/* TODO: Asterik is the universal selector for everythign, imagine it as the large overarching rules that overrides. Select cases will dictate that you use this otherwise dont */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: This is a tag selector it is specifically targetting the body when called in HTML*/
+body {
+  background-color: red;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* This is an ID selector, this is going to apply the stlying to things only labelled with .highlighted-text */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* This is a class selector, this is going to apply the styling to things that have been called with the contact-section */
+#contact-section {
+  background-color: #f0ead6;
+}

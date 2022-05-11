@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>CSS Selectors</title>
+  </head>
+
+  <body>
+    <!-- This is the header -->
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <!-- Not sure what Figure is, porbably the same as a section? Caption for an image contained in it's own box -->
+        <figure>
+          <img src="./assets/images/image-1.jpg" alt="placeholder image with text reading 200 width 200 height"/>
+          <figcaption>Student Image</figcaption>
+        </figure>
+<!-- this is a paragraph that is being called highlighted text, which will get its styling guide from the CSS document -->
+        <p class="highlighted-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </section>
+<!-- This is an id selector which will over rule a class rule, this will pull it's styling from the specific call of contact-section -->
+      <section id="contact-section">
+        <h2>Contact Information</h2>
+        <!-- This unordered list will use the class highlighted text for it's styling -->
+        <ul class="highlighted-text">
+          <li>Email: <a href="#">someplace@gmail.com</a></li>
+          <li>GitHub: <a href="#">sampleName</a></li>
+          <li>Portfolio: <a href="#">coming soon</a></li>
+        </ul>
+        <br>
+      </section>
+    </main>
+<!-- this is a footer -->
+    <footer>
+      <p>© 2022 Student Bio Productions</p>
+    </footer>
+  </body>
+
+</html>
